@@ -19,7 +19,7 @@
 - [x] Login Manger: LXDM?
 - [x] Boot Screen: Plymouth
 - [x] File Explorer: Dolphin
-- [x] Terminal Emulator:Termite?
+- [x] Terminal Emulator:rxvt-unicode
 - [x] System Monitor:Gnome
 - [x] Torrent: Transmission
 - [x] Editor: Notepadqq
@@ -59,6 +59,5 @@ lib32-alsa-plugins #32-bit multilib support (wine/steam)
 
 ####Drive Management:
 ####Boot:
-brub: https://wiki.archlinux.org/index.php/GRUB
+grub: https://wiki.archlinux.org/index.php/GRUB
 plymouth (AUR): https://wiki.archlinux.org/index.php/Plymouth#Installation
-XDG Autostart?

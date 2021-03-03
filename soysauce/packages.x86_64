@@ -152,20 +152,22 @@ ttf-liberation
 #WM stuff
 xorg #tools and server
 openbox
-obconf #openbox config
-python-pyxdg #XDG Autostart
-compton
-polybar
+obconf
+python-pyxdg
+#compton
+polybar #setup autostart with openbox
 dmenu
-termite
+rxvt-unicode
 gnome-system-monitor
 transmission-qt
 notepadqq
 gparted
 kvantum-qt5
 lxappearance
+lxappearance-obconf
 python-pywall
 nitrogen
 qutebrowser
 dunst
 dolphin
+#xbindkeys
