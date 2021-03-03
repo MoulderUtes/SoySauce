@@ -3,11 +3,11 @@
 ###Calamares:
 ###ArchISO:
 ###Configuration:
-- [ ] System Information : Image, OS name, etc, (neofetch data)
+- [ ] System Information : Image, OS name, etc, (neofetch data) also on iso
 - [ ] OpenBox config/daemon
 - [ ] compton daemon
 - [ ] polybar run with vm https://wiki.archlinux.org/index.php/Polybar#Running_with_WM
-- [ ] lxdm daemon
+- [ ] openbox terminal
 - [ ] plymouth hooks
 ###Desktop Environment:
 - [x] Window Mangaer: OpenBox
@@ -17,7 +17,7 @@
 - [ ] Menus: Rofi?
 - [x] Program Menu: DMenu
 - [x] Login Manger: LXDM?
-- [x] Boot Screen: Plymouth
+- [ ] Boot Screen: Plymouth
 - [x] File Explorer: Dolphin
 - [x] Terminal Emulator:rxvt-unicode
 - [x] System Monitor:Gnome
@@ -26,7 +26,7 @@
 - [x] Drive Manager: Gparted
 - [x] Qt Theme: Kvantum Manager
 - [x] GTK Theme: LXappearance
-- [x] System Theme: Pywall
+- [ ] System Theme: Pywall
 - [x] Wallpaper: Nitrogen?
 - [x] Lightweight Browser: Qutebrowser?
 - [x] Notifications: Dunst

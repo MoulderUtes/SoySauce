@@ -150,12 +150,13 @@ ttf-dejavu
 ttf-liberation
 
 #WM stuff
-xorg #tools and server
+xorg-server
+xorg-apps
 openbox
 obconf
 python-pyxdg
 #compton
-polybar #setup autostart with openbox
+#polybar aur #setup autostart with openbox
 dmenu
 rxvt-unicode
 gnome-system-monitor
@@ -165,7 +166,7 @@ gparted
 kvantum-qt5
 lxappearance
 lxappearance-obconf
-python-pywall
+#python-pywall aur
 nitrogen
 qutebrowser
 dunst
