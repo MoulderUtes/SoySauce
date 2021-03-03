@@ -137,7 +137,8 @@ qjackctl
 
 #Network
 networkmanager
-networkmanager-applet
+nm-connection-editor
+network-manager-applet
 
 #Bluetooth
 bluez
