@@ -110,7 +110,8 @@ zsh
 
 
 #Boot
-lxdm
+lightdm
+lightdm-webkit2-greeter
 #plymouth aur
 
 #CLI Tools
