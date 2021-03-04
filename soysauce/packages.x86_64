@@ -112,12 +112,14 @@ zsh
 #Boot
 lightdm
 lightdm-webkit2-greeter
+lightdm-webkit-theme-aether
 #plymouth aur
 
 #CLI Tools
 ranger
 python
 python2
+base-devel
 
 #Audio
 #alsa is built into kernel modules 
@@ -149,6 +151,7 @@ bluedevil
 #Fonts
 ttf-dejavu
 ttf-liberation
+ttf-opensans
 
 #WM stuff
 xorg-server

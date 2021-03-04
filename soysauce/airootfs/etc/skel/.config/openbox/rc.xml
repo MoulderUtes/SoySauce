@@ -3,8 +3,8 @@
     <action name="Close"/>
   </keybind>
   <keybind key="C-A-t">
-  <action name="Execute">
-    <command>urxvt</command>
-  </action>
-</keybind>
+    <action name="Execute">
+      <command>urxvt</command>
+    </action>
+  </keybind>
 </keyboard>

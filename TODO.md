@@ -4,8 +4,9 @@
 ###ArchISO:
 ###Configuration:
 - [ ] System Information : Image, OS name, etc, (neofetch data) also on iso
-- [ ] OpenBox config/daemon
+- [ ] OpenBox config
 - [ ] compton daemon
+- [ ] lightdm config
 - [ ] polybar run with vm https://wiki.archlinux.org/index.php/Polybar#Running_with_WM
 - [ ] openbox terminal
 - [ ] plymouth hooks
