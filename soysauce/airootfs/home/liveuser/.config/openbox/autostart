@@ -1,0 +1,6 @@
+#start wallpaper
+feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/* &
+
+# start panel
+sleep 1
+sh ~/.config/polybar/launch.sh
