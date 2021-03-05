@@ -1,5 +1,5 @@
 #start wallpaper
-variety
+feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/* &
 
 # start panel
 sleep 1

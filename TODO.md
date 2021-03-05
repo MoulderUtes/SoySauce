@@ -7,6 +7,7 @@
 - [ ] OpenBox config
 - [ ] compton daemon
 - [ ] lightdm config
+- [ ] wallpaper fix https://www.reddit.com/r/unixporn/comments/6c7nlx/question_how_to_assign_dual_monitor_wallpapers/
 - [ ] polybar run with vm https://wiki.archlinux.org/index.php/Polybar#Running_with_WM
 - [ ] openbox terminal
 - [ ] plymouth hooks
