@@ -160,7 +160,7 @@ openbox
 obconf
 python-pyxdg
 #compton
-#polybar aur #setup autostart with openbox
+polybar
 dmenu
 rxvt-unicode
 gnome-system-monitor
@@ -171,7 +171,7 @@ kvantum-qt5
 lxappearance
 lxappearance-obconf
 #python-pywall aur
-nitrogen
+variety
 qutebrowser
 dunst
 dolphin

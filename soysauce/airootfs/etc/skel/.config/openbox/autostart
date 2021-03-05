@@ -1,0 +1,6 @@
+#start wallpaper
+variety
+
+# start panel
+sleep 1
+sh ~/.config/polybar/launch.sh
