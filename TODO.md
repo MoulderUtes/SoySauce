@@ -5,6 +5,7 @@
 ###Configuration:
 - [ ] System Information : Image, OS name, etc, (neofetch data) also on iso
 - [ ] OpenBox config
+- [ ] STUPID HOME DIRECTORY CRAP
 - [ ] compton daemon
 - [ ] lightdm config
 - [ ] wallpaper fix https://www.reddit.com/r/unixporn/comments/6c7nlx/question_how_to_assign_dual_monitor_wallpapers/
