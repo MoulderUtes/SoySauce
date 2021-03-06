@@ -1,6 +1,13 @@
 #start wallpaper
-feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/* &
+feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/SouSauce/* &
 
 # start panel
 sleep 1
 sh ~/.config/polybar/launch.sh
+
+#Vbox client
+VBoxClient --clipboard
+VBoxClient --draganddrop
+VBoxClient --seamless
+VBoxClient --checkhostversion
+VBoxClient --vmsvga
