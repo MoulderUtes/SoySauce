@@ -160,7 +160,7 @@ openbox
 obconf
 python-pyxdg
 picom
-compton-conf
+#compton-conf
 polybar
 rofi
 rxvt-unicode
