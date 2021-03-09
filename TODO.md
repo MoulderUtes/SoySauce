@@ -5,8 +5,8 @@
 ###Configuration:
 - [ ] System Information : Image, OS name, etc, (neofetch data) also on iso
 - [ ] OpenBox config
-- [ ] STUPID HOME DIRECTORY CRAP
-- [ ] compton daemon
+- [x] STUPID HOME DIRECTORY CRAP
+- [x] picom
 - [ ] lightdm config
 - [ ] wallpaper fix https://www.reddit.com/r/unixporn/comments/6c7nlx/question_how_to_assign_dual_monitor_wallpapers/
 - [ ] polybar run with vm https://wiki.archlinux.org/index.php/Polybar#Running_with_WM
@@ -15,10 +15,10 @@
 ###Desktop Environment:
 - [x] Window Mangaer: OpenBox
 - [x] Display Server: Xorg
-- [x] Compositor: Compton?
+- [x] Compositor: picom
 - [x] Status Bar: Polybar
 - [ ] Menus: Rofi?
-- [x] Program Menu: DMenu
+- [x] Program Menu: rofi
 - [x] Login Manger: LXDM?
 - [ ] Boot Screen: Plymouth
 - [x] File Explorer: Dolphin

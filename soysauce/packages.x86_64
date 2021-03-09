@@ -113,7 +113,7 @@ zsh
 lightdm
 lightdm-webkit2-greeter
 lightdm-webkit-theme-aether
-#plymouth aur
+#plymouth
 
 #CLI Tools
 ranger
@@ -159,9 +159,10 @@ xorg-apps
 openbox
 obconf
 python-pyxdg
-#compton
+picom
+compton-conf
 polybar
-dmenu
+rofi
 rxvt-unicode
 gnome-system-monitor
 transmission-qt

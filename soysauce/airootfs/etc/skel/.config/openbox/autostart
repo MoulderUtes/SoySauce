@@ -1,5 +1,9 @@
+#start Compositor
+picom -bd
+
 #start wallpaper
-feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/SouSauce/* &
+sleep 1
+feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/SoySauce/* &
 
 # start panel
 sleep 1
