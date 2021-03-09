@@ -173,7 +173,7 @@ lxappearance
 lxappearance-obconf
 #python-pywall aur
 feh
-qutebrowser
+firefox
 dunst
 dolphin
 #xbindkeys
