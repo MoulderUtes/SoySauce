@@ -3,7 +3,7 @@ picom -bd
 
 #start wallpaper
 sleep 1
-feh --bg-scale --no-xinerama --randomize /usr/share/backgrounds/SoySauce/* &
+feh --bg-scale --no-xinerama --randomize ~/backgrounds/* &
 
 # start panel
 sleep 1

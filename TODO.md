@@ -10,6 +10,7 @@ lightdm config
 qt config
 gtk config
 xdg menu (desktop right click)
+backround images getting cleand
 
 
 
