@@ -2,8 +2,9 @@
 picom -bd
 
 #start wallpaper
-sleep 1
-feh --bg-scale --no-xinerama --randomize ~/backgrounds/* &
+#sleep 1
+#feh --bg-scale --no-xinerama --randomize ~/backgrounds/* &
+wal -i ~/backgrounds
 
 # start panel
 sleep 1

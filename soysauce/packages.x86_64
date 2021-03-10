@@ -120,6 +120,7 @@ ranger
 python
 python2
 base-devel
+git
 
 #Audio
 #alsa is built into kernel modules 
@@ -171,7 +172,7 @@ gparted
 kvantum-qt5
 lxappearance
 lxappearance-obconf
-#python-pywall aur
+python-pywal
 feh
 firefox
 dunst
