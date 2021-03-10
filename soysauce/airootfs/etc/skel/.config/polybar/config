@@ -1,6 +1,6 @@
 [bar/top]
 width = 100%
-height = 35 
+height = 20
 offset-x = 0
 offset-y = -1 
 ;bottom = true
