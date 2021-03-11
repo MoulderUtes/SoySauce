@@ -17,8 +17,8 @@ window.inactive.title.separator.color: {background}
 window.active.client.color: {background}
 window.inactive.client.color: {background}
 
-window.active.label.text.color: {foreground}
-window.inactive.label.text.color: #777777
+window.active.label.text.color: {color1ls}
+window.inactive.label.text.color: {color7}
 
 window.active.title.bg: flat solid
 window.active.title.bg.color: {background}
