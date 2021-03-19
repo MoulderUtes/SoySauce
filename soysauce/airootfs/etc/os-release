@@ -1,0 +1,12 @@
+NAME="SoySauce Linux"
+ID=soysauce
+ID_LIKE=arch
+BUILD_ID=rolling
+PRETTY_NAME="SoySauce Linux"
+ANSI_COLOR="32;1;222;185;81"
+HOME_URL="https://github.com/MoulderUtes/SoySauce"
+DOCUMENTATION_URL="https://github.com/MoulderUtes/SoySauce"
+SUPPORT_URL="https://github.com/MoulderUtes/SoySauce/issues"
+BUG_REPORT_URL="https://github.com/MoulderUtes/SoySauce/issues"
+LOGO=soysauce_simple
+

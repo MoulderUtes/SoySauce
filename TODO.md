@@ -3,7 +3,6 @@
 ###Calamares:
 ###ArchISO:
 ###Configuration:
-System Information : Image, OS name, etc, (neofetch data) also on iso
 -OpenBox config
 picom
 lightdm config
@@ -11,6 +10,7 @@ qt config
 gtk config
 xdg menu (desktop right click)
 backround images getting cleand
+wicd.service
 
 
 

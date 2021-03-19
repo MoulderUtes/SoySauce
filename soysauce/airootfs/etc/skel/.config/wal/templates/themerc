@@ -17,7 +17,7 @@ window.inactive.title.separator.color: {background}
 window.active.client.color: {background}
 window.inactive.client.color: {background}
 
-window.active.label.text.color: {color1ls}
+window.active.label.text.color: {color1}
 window.inactive.label.text.color: {color7}
 
 window.active.title.bg: flat solid
@@ -33,11 +33,11 @@ window.*.button.*.hover.bg: flat
 window.*.button.*.hover.bg: parentrelative
 window.active.button.disabled.image.color: #999999
 
-window.*.button.close.*.image.color: {color1}
-window.*.button.max.*.image.color: {color2}
+window.*.button.close.*.image.color: {color6}
+window.*.button.max.*.image.color: {color5}
 window.*.button.iconify.*.image.color: {color4}
 window.*.button.desk.*.image.color: {color3}
-window.*.button.shade.*.image.color: {color5}
+window.*.button.shade.*.image.color: {color2}
 
 window.active.button.unpressed.bg: parentrelative
 window.active.button.pressed.bg: parentrelative

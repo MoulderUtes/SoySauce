@@ -143,6 +143,7 @@ qjackctl
 networkmanager
 nm-connection-editor
 network-manager-applet
+wicd
 
 #Bluetooth
 bluez
