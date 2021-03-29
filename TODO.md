@@ -8,8 +8,9 @@ picom
 lightdm config
 qt config
 gtk config
+rofi
+
 xdg menu (desktop right click)
-backround images getting cleand
 wicd.service
 
 
