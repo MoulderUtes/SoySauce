@@ -1,0 +1,19 @@
+#Vbox client
+VBoxClient --clipboard
+VBoxClient --draganddrop
+VBoxClient --seamless
+VBoxClient --checkhostversion
+VBoxClient --vmsvga
+sleep 2 &
+#start Compositor
+picom -bd &
+
+#start wallpaper
+#sleep 1
+#feh --bg-scale --no-xinerama --randomize ~/backgrounds/* &
+wal -i ~/backgrounds &
+openbox --reconfigure &
+
+# start panel
+sh ~/.config/polybar/launch.sh &
+

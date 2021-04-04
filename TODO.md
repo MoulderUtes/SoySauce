@@ -3,8 +3,7 @@
 ###Calamares:
 ###ArchISO:
 ###Configuration:
--OpenBox config
-picom
+picom?
 lightdm config
 qt config
 gtk config
@@ -12,6 +11,8 @@ rofi
 
 xdg menu (desktop right click)
 wicd.service
+netowrk app
+bluetooth app
 
 
 

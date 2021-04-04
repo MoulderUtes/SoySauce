@@ -158,6 +158,7 @@ ttf-opensans
 #WM stuff
 xorg-server
 xorg-apps
+xorg-xinit
 openbox
 obconf
 python-pyxdg
