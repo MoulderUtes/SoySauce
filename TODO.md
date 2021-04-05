@@ -8,6 +8,8 @@ lightdm config
 qt config
 gtk config
 rofi
+polybar wifi bluetooth menu power and icons
+theming for spotify and vs code and firefox
 
 xdg menu (desktop right click)
 bluetooth app

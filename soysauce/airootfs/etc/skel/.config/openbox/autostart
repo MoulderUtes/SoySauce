@@ -9,9 +9,9 @@ sleep 2 &
 picom &
 
 #start wallpaper
-#sleep 1
-#feh --bg-scale --no-xinerama --randomize ~/backgrounds/* &
+sleep 1
 wal -i ~/backgrounds &
+sleep 3
 openbox --reconfigure &
 
 # start panel

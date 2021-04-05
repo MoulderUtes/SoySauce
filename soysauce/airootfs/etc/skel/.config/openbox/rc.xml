@@ -43,7 +43,7 @@
                   'Active' - where the active window is -->
     </placement>
     <theme>
-        <name>Kvantum</name>
+        <name>Walbox</name>
         <titleLayout>SDLIMC</titleLayout>
         <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -567,11 +567,7 @@
             <!-- Keybindings for launching terminal -->
             <keybind key="W-Return">
                 <action name="Execute">
-                    <startupnotify>
-                        <enabled>true</enabled>
-                        <name>uxvrt</name>
-                    </startupnotify>
-                    <command>uxcrt</command>
+                    <command>uxvrt</command>
                 </action>
             </keybind>
             <!-- Keybindings for running applications -->
