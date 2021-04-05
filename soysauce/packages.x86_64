@@ -142,7 +142,7 @@ qjackctl
 #Network
 networkmanager
 nm-connection-editor
-network-manager-applet
+
 
 
 #Bluetooth

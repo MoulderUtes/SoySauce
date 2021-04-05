@@ -3,16 +3,16 @@
 ###Calamares:
 ###ArchISO:
 ###Configuration:
-picom?
+
 lightdm config
 qt config
 gtk config
 rofi
 
 xdg menu (desktop right click)
-wicd.service
-netowrk app
 bluetooth app
+rofi
+icons
 
 
 
@@ -21,12 +21,12 @@ bluetooth app
 - [x] Display Server: Xorg
 - [x] Compositor: picom
 - [x] Status Bar: Polybar
-- [x] Menus: Rofi?
+- [x] Menus: Rofi
 - [x] Program Menu: rofi
-- [x] Login Manger: LXDM?
+- [x] Login Manger: LXDM
 - [ ] Boot Screen: Plymouth
 - [x] File Explorer: Dolphin
-- [x] Terminal Emulator:rxvt-unicode
+- [x] Terminal Emulator:rxvt-unicode?
 - [x] System Monitor:Gnome
 - [x] Torrent: Transmission
 - [x] Editor: Notepadqq
@@ -38,3 +38,9 @@ bluetooth app
 - [x] Lightweight Browser: firefox
 - [x] Notifications: Dunst
 - [ ] Installer: Calamares
+- [ ] Network GUI: nm-connection-editor
+
+
+
+HOMEDIR - change for user
+all pywal symlinks

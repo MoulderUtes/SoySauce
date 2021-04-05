@@ -6,7 +6,7 @@ VBoxClient --checkhostversion
 VBoxClient --vmsvga
 sleep 2 &
 #start Compositor
-picom -bd &
+picom &
 
 #start wallpaper
 #sleep 1

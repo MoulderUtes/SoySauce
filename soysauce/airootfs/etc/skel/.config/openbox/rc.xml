@@ -569,9 +569,9 @@
                 <action name="Execute">
                     <startupnotify>
                         <enabled>true</enabled>
-                        <name>Termite</name>
+                        <name>uxvrt</name>
                     </startupnotify>
-                    <command>termite</command>
+                    <command>uxcrt</command>
                 </action>
             </keybind>
             <!-- Keybindings for running applications -->
@@ -580,13 +580,13 @@
                     <menu>root-menu</menu>
                 </action>
             </keybind>
-            <keybind key="W-r">
+            <keybind key="W">
                 <action name="Execute">
                     <startupnotify>
                         <enabled>true</enabled>
                         <name>Rofi</name>
                     </startupnotify>
-                    <command>rofi -show run</command>
+                    <command>rofi -show drun</command>
                 </action>
             </keybind>
             <!-- Keybindings for important applications -->
