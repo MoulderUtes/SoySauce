@@ -580,7 +580,7 @@
                     <menu>root-menu</menu>
                 </action>
             </keybind>
-            <keybind key="W">
+            <keybind key="W-r">
                 <action name="Execute">
                     <startupnotify>
                         <enabled>true</enabled>
