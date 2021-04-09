@@ -10,8 +10,7 @@ picom &
 
 #start wallpaper
 sleep 1
-wal -i ~/backgrounds &
-sleep 3
+wal -i ~/backgrounds 
 openbox --reconfigure &
 
 # start panel

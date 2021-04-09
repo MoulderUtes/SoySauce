@@ -148,7 +148,7 @@ nm-connection-editor
 #Bluetooth
 bluez
 bluez-utils
-bluedevil
+blueman
 
 #Fonts
 ttf-dejavu
@@ -179,6 +179,7 @@ feh
 firefox
 dunst
 dolphin
+breeze-icons
 #xbindkeys
 virtualbox-guest-utils
 neofetch
