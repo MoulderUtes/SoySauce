@@ -63,7 +63,7 @@ module-margin = 0
 
 modules-left = rofi xworkspaces xwindow
 modules-center =
-modules-right =    memory cpu bluetooth wired-network wireless-network pulseaudio date
+modules-right = theme memory cpu bluetooth wired-network wireless-network pulseaudio date
 
 tray-position = none
 
@@ -93,22 +93,30 @@ cursor-scroll =
 type = custom/text
 content = 
 click-left = rofi -show drun
-click-middle = rofi -show filemanager
+click-middle = rofi -show file-browser
 click-right = rofi -show run
 
-content-background = ${{colors.1}}
-content-foreground = ${{colors.background}}
+content-background = ${{colors.background}}
+content-foreground = ${{colors.color4}}
 content-padding = 1
 
-[module/rofi]
+[module/bluetooth]
 type = custom/text
-content = 
+content = 
 click-left = blueman-manager
 click-right = blueman-adapters
-
-content-background = ${{colors.4}}
-content-foreground = ${{colors.background}}
 content-padding = 1
+content-foreground = ${{colors.background}}
+content-background = ${{colors.color5}}
+
+[module/theme]
+type = custom/text
+content = 
+click-left = sh ~/updateTheme.sh
+
+content-padding = 1
+content-foreground = ${{colors.background}}
+content-background = ${{colors.color5}}
                                          
 [module/xworkspaces]
 type = internal/xworkspaces
@@ -120,7 +128,7 @@ pin-workspaces = true
 enable-click = true
 enable-scroll = true
 
-icon-0 = Internet;
+icon-0 = Internet;
 icon-1 = Default;
 icon-2 = Work;
 icon-3 = Background;
@@ -179,7 +187,7 @@ label-background = ${{colors.background}}
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = liuve<ramp-volume> <label-volume>
+format-volume = <ramp-volume> <label-volume>
 format-volume-padding = 1
 format-volume-foreground = ${{colors.background}}
 format-volume-background = ${{colors.color5}}
@@ -224,11 +232,14 @@ unknown-as-up = true
 
 label-connected =  %local_ip%
 label-connected-foreground = ${{colors.color10}}
+label-connected-padding = 1
 
-label-disconnected = W
+label-disconnnected-padding = 1
+label-disconnected = 
 label-disconnected-foreground = #B30000
 
-click-right = nm-connection-editor
+click-right =nm-connection-editor
+click-left =nm-connection-editor
 
 [module/wireless-network]
 type = internal/network
@@ -237,14 +248,19 @@ unknown-as-up = true
 
 label-connected =  %local_ip%
 label-connected-foreground = ${{colors.color10}}
+label-connected-padding = 1
 
-label-disconnected = WL
+label-disconnected = 
 label-disconnected-foreground = #B30000
+label-disconnected-padding = 1
 
 click-right = nm-connection-editor
+click-left = nm-connection-editor
 
 ; vim:ft=dosini
                       
+
+
 
 
 

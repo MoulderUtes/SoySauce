@@ -567,7 +567,7 @@
             <!-- Keybindings for launching terminal -->
             <keybind key="W-Return">
                 <action name="Execute">
-                    <command>uxvrt</command>
+                    <command>urxvt</command>
                 </action>
             </keybind>
             <!-- Keybindings for running applications -->

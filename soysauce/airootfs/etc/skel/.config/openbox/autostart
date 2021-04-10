@@ -1,10 +1,10 @@
 #Vbox client
-VBoxClient --clipboard
-VBoxClient --draganddrop
-VBoxClient --seamless
-VBoxClient --checkhostversion
-VBoxClient --vmsvga
-sleep 2 &
+VBoxClient --clipboard &
+VBoxClient --draganddrop &
+VBoxClient --seamless &
+VBoxClient --checkhostversion &
+VBoxClient --vmsvga &
+sleep 2 & 
 #start Compositor
 picom &
 

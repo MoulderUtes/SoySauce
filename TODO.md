@@ -7,8 +7,9 @@ dunst
 lightdm config
 qt config
 gtk config
+plymouth
+theming for spotify
 
-theming for spotify and vs code and firefox
 
 xdg menu (desktop right click)
 icons
