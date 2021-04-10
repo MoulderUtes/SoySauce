@@ -599,9 +599,9 @@
                 <action name="Execute">
                     <startupnotify>
                         <enabled>true</enabled>
-                        <name>PCManFM</name>
+                        <name>dolphin</name>
                     </startupnotify>
-                    <command>pcmanfm</command>
+                    <command>dolphin</command>
                 </action>
             </keybind>
             <keybind key="S-W-k">
@@ -626,9 +626,9 @@
                 <action name="Execute">
                     <startupnotify>
                         <enabled>true</enabled>
-                        <name>i3lock</name>
+                        <name>logout</name>
                     </startupnotify>
-                    <command>i3lock -c 48D884</command>
+                    <command>openbox --exit</command>
                 </action>
             </keybind>
             <!-- Keybindings for exiting out of Openbox -->

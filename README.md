@@ -6,3 +6,4 @@ Install archiso package to an arch install
 	
 Others work (except packages):
 https://github.com/edisile/walbox/
+Distro Tubes Openbox Keybinds

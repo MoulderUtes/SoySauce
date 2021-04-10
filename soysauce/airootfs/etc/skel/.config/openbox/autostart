@@ -1,9 +1,5 @@
 #Vbox client
-VBoxClient --clipboard &
-VBoxClient --draganddrop &
-VBoxClient --seamless &
-VBoxClient --checkhostversion &
-VBoxClient --vmsvga &
+python3 ~/.config/openbox/virtualbox.py
 sleep 2 & 
 #start Compositor
 picom &

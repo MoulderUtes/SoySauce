@@ -9,9 +9,6 @@ qt config
 gtk config
 plymouth
 theming for spotify
-
-
-xdg menu (desktop right click)
 icons
 
 
