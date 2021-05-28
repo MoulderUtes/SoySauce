@@ -63,7 +63,7 @@ module-margin = 0
 
 modules-left = rofi xworkspaces xwindow
 modules-center =
-modules-right = theme memory cpu bluetooth wired-network wireless-network pulseaudio date
+modules-right = theme memory cpu bluetooth wired-network wireless-network pulseaudio date powermenu
 
 tray-position = none
 
@@ -256,6 +256,16 @@ label-disconnected-padding = 1
 
 click-right = nm-connection-editor
 click-left = nm-connection-editor
+
+[module/powermenu]
+type = custom/text
+content = 
+click-left = rofi -show power-menu -modi power-menu:rofi-power-menu
+click-right = rofi -show power-menu -modi power-menu:rofi-power-menu
+content-padding = 1
+content-foreground = ${{colors.background}}
+content-background = ${{colors.color3}}
+
 
 ; vim:ft=dosini
                       

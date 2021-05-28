@@ -9,11 +9,12 @@ copy https://github.com/NoiSek/Aether/blob/b7f5674b808bd1dd30993f24fe2578a645f5f
 change backround
 MAKE SURE YOU ADD IT TO /home/user/cache/ OR ELSE IT WONT WORK
 
-qt config
-gtk config
+random rofi menus (music, sound, network, bluetooth, etc)
+qt config (not now)
+gtk config(not now)
 plymouth
 theming for spotify
-icons
+icons for dolphin (qt)
 neofetch logo
 
 
