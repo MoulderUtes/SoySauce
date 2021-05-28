@@ -3,13 +3,18 @@
 ###Calamares:
 ###ArchISO:
 ###Configuration:
-dunst
+
 lightdm config
+copy https://github.com/NoiSek/Aether/blob/b7f5674b808bd1dd30993f24fe2578a645f5f9fe/src/js/Components/Settings/DefaultThemes.js and add pywal theme in default location
+change backround
+MAKE SURE YOU ADD IT TO /home/user/cache/ OR ELSE IT WONT WORK
+
 qt config
 gtk config
 plymouth
 theming for spotify
 icons
+neofetch logo
 
 
 
@@ -30,12 +35,12 @@ icons
 - [x] Drive Manager: Gparted
 - [x] Qt Theme: Kvantum Manager
 - [x] GTK Theme: LXappearance
-- [ ] System Theme: Pywall
+- [x] System Theme: Pywall
 - [x] Wallpaper: feh
 - [x] Lightweight Browser: firefox
 - [x] Notifications: Dunst
 - [ ] Installer: Calamares
-- [ ] Network GUI: nm-connection-editor
+- [x] Network GUI: nm-connection-editor
 
 
 
